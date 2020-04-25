@@ -1,0 +1,264 @@
+{
+    box-sizing: border-box;
+}
+body{
+    background-color: ghostwhite;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 90%;
+    height: 60px;
+    position:fixed;
+    margin-right: 8%;
+}
+.store{
+    color: white;
+    float: left;
+    margin-top: 15px;
+    margin-right: 8%;
+    margin-left: 9%;
+    border-radius: 10px;
+    background-color: gray;
+    font-size: 30px;
+    padding: 8px;
+}
+.store :hover{
+    border: 10px solid gray;
+}
+.menu-bar{
+    display: inline;
+    position: relative;
+}
+.menu-bar button{
+    width: 120px;
+    height: 40px;
+    float: right;
+    margin-left: 0px;
+    margin-right:0px ;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: black;
+    background-color: gray;
+}
+.menu-bar button a {
+    font-size: 20px;
+    color: white;
+    text-decoration: white;
+}
+.menu-bar button:hover{
+    color :black;
+    border:2px solid white;
+    background-color: darkgray;
+    transform:scale(1.2) ;
+}
+
+.c1{
+    position: static;
+    height: 900px;
+    width: 100%;
+}
+.c1 .box{
+    float: left;
+    margin: 8px 3%;
+    height: 50%;
+    width: 26%;
+}
+.c1 .box:hover{
+}
+.c1 .item{
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 17px;
+    border: solid black;
+}
+.c1 .img-item{
+    height: 60%;
+    width: 100%;
+}
+.c1 .img-item img{
+    height: 97%;
+    width: 100%;
+    border-radius: 27px;
+}
+.c1 h1{
+    text-align: center;
+    margin: 5px auto;
+    font-size: 40px;
+}
+.c1 .name{
+    height: 6.5%;
+    background-color: floralwhite;
+    text-align: center;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    font-family: cursive;
+}
+.c1 .price{
+    padding-left:10px ;
+    height: 5%;
+    background-color: floralwhite;
+}
+.c1 .description{
+    height:11%;
+    padding-top: 5px;
+    padding-left: 10px;
+    background-color: floralwhite;
+    font-size: 15px;
+    font-family: cursive;
+}
+.c1 .cart{
+    text-align: center;
+    height: 16%;
+    background-color:floralwhite;
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+}
+.c1 .cart button{
+    display: inline-block;
+    border-radius: 27px;
+    background-color: rgba(0,0,0,0.86);
+    color: floralwhite;
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+    width: 180px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.about{
+    width: 100%;
+    height: 1200px;
+    float: left;
+    background-color: ghostwhite;
+    position: static;
+}
+.about h1{
+    font-family: cursive;
+    font-size: 40px;
+    margin-left: 4.5%;
+}
+.about .story{
+    font-family: cursive;
+    font-size: 20px;
+    margin-left:4.5%;
+    margin-right: 4%;
+}
+iframe {
+    border: 1px solid black;
+    width: 90%;
+    height: 450px;
+    margin:  0 0% 2% 4.5%;
+}
+.about .icons{
+    margin:  0 10% 2% 35%;
+    position: inherit;
+
+}
+.fa {
+    padding: 30px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube{
+    background: #bb0000;
+    color: white;
+}
+.fa-snapchat{
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+table#t01 {
+    font-size: 30px;
+    width: 90%;
+    background-color: #f1f1c1;
+    margin-left: 70px;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: white;
+    background-color: black;
+}
+
+.Contact{
+    background-color: lightgrey;
+    height: 450px;
+    margin-top: 1230px;
+
+}
+.Contact span{
+    font-size: 30px ;
+    margin-left: 6% ;
+    padding-top: 5px;
+}
+#contact-sp{
+    font-family: cursive;
+    margin-left: 6% ;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+input{
+    width:85% ; height: 40px;
+    margin-left: 6% ;
+    margin-bottom: 15px;
+}
+.submit{
+    color:white;
+    font-size: 15px;
+    background-color: deepskyblue;
+}
+.Contact .sec-mail{
+    padding-left: 6.1%;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+
+
+.myfooter{
+    background-color:rgba(0,0,0,0.80) ;
+    width: 100%;
+    height: 70px;
+    padding-bottom: 50px;
+    
+}
+.myfooter div{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 4% 0% 0% 0%;
+}
